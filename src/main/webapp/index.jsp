@@ -40,11 +40,13 @@
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-        <label for="phonenumber">Phone Number:</label>
+        <label for="phonenumber">Password:</label>
         <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter phone number" required>
 
         <input type="submit" value="Register">
     </form>
+    
+    <a href="SignInPage.jsp"">Signin</a>
 </div>
 </body>
 </html>

@@ -11,7 +11,7 @@
         <input type="text" id="name" name="name" required>
         <br><br>
         
-        <label for="phone">Phone Number:</label>
+        <label for="phone">Password:</label>
         <input type="text" id="phone" name="phone" required>
         <br><br>
         

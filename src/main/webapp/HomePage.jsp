@@ -242,6 +242,7 @@ footer {
 				
 			<a href="index.jsp"
 			style="background-color: #fff; color: Red; text-decoration: none; font-weight: bold; margin-right: 15px;">Logout</a>
+		
 		</nav>
 	</header>
 

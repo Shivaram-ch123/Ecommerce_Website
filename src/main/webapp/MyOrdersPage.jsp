@@ -44,8 +44,11 @@ if (list == null || list.isEmpty()) {
         <th>DaysToDeliver</th>
         <th>Action</th>
     </tr>
+
 <%
-        for (Order_Product item : orderItems) {
+    double totalCost = 0; // Initialize total cost
+    for (Order_Product item : orderItems) {
+        totalCost += item.getTotalCost(); // Add each item's cost
 %>
     <tr>
         <td><%= item.getProductId().getName() %></td>
@@ -61,8 +64,14 @@ if (list == null || list.isEmpty()) {
         </td>
     </tr>
 <%
-        }
+    } // end for loop
 %>
+
+<!-- Display total cost at the bottom -->
+<tr>
+    <td colspan="2"><strong>Total Cost:</strong></td>
+    <td colspan="3"><strong>$<%= totalCost %></strong></td>
+</tr>
 </table>
 <%
         orderNumber++;
