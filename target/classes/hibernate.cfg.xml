@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings -->
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">
+			jdbc:postgresql://localhost:5432/mydatabase</property>
+		<property name="connection.username">postgres</property>
+		<property name="connection.password">Root321</property>
+
+
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.PostgreSQLDialect</property>
+
+		<!-- here properties set-->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+
+		<mapping class="com.entities.User"/>
+		<mapping class="com.entities.Cart"/>
+		<mapping class="com.entities.Order"/>
+		<mapping class="com.entities.Product"/>
+		<mapping class="com.entities.Cart_Items"/>
+		<mapping class="com.entities.Order_Product"/>
+	</session-factory>
+</hibernate-configuration>
