@@ -240,8 +240,12 @@ footer {
 				Orders</a>
 				
 				
+			<a href="UpdatePassword.jsp"
+			style="background-color: #fff; color: black; text-decoration: none; font-weight: bold; margin-right: 15px;">Update Details</a>
+				
 			<a href="index.jsp"
 			style="background-color: #fff; color: Red; text-decoration: none; font-weight: bold; margin-right: 15px;">Logout</a>
+			
 		
 		</nav>
 	</header>

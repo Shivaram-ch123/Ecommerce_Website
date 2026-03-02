@@ -88,4 +88,18 @@
 		<servlet-name>updateCart</servlet-name>
 		<url-pattern>/updateCart</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdatePasswordServlet</servlet-name>
+		<servlet-class>com.controllers.UpdatePasswordServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdatePasswordServlet</servlet-name>
+		<url-pattern>/UpdatePasswordServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
 </web-app>
